@@ -2,7 +2,7 @@
 # Output: true
 # Explanation: "amanaplanacanalpanama" is a palindrome.
 
-# Time: O(n), Space: O(1)
+# Time: O(n), Space: O(n)
 # Two pointers
 
 class Solution:
