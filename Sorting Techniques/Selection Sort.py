@@ -1,3 +1,6 @@
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)
+
 
 arr = [2,10,51,9,5,0,3,1]
 
