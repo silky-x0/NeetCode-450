@@ -12,4 +12,4 @@ for j in range(1,len(arr)):
         i-=1
     arr[i+1] = key
 
-print(arr)        
+print(arr)
