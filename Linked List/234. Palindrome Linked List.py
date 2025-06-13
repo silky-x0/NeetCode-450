@@ -11,8 +11,7 @@ class Solution:
         temp = head
         while temp:
             arr.append(temp.val)
-            temp = temp.next
-        st = "".join(map(str, arr))    
-        return st == st[::-1]
+            temp = temp.next   
+        return arr == arr[::-1]
 
 # Alternate solution using two pointers (will add later)    
