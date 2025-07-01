@@ -29,3 +29,18 @@ print(fleet_count)
 # to target we'll check if car behind is faster in terms of reaching target if yes we'll increase fleet count
 
 #Time Complexity: O(nlogn) Space Complexity: O(n)
+
+
+
+#Stack soln I found on submitted code
+
+gaadi = list(zip(position,speed))        #zipping into one coz cars cant overtake
+gaadi.sort(reverse=True)
+
+s = []
+for jgh, tezi in gaadi:
+    s.append((target-jgh)/tezi)
+    if len(s) >= 2 and s[-1] <= s[-2]:
+        s.pop()
+
+print(len(s))
