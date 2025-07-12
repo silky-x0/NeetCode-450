@@ -20,8 +20,8 @@ while i < len(child) and j < len(cookie):                             # for larg
     if cookie[j] >= child[j]:
         i+=1
     j+=1
-
-print(i)
+                                                                      #                         sorting        traversal
+print(i)                                                              # time compllexity is O(nlogn + mlogm) + O(n + m) = O(nlogn + mlogm)
 
 # Notes and Explanation
 # Idea is straight forward first sort both cokkies and childs, you ask why? because it'll be easier to compare say if we didn't sort we have to find 
