@@ -38,3 +38,21 @@ print(sum(toffee))                                                       # Time 
 # wrote greeedy approach but I was stuck as index error issue 😭😭 because I was simulatenously comparing  currrent child with its left and right neighbour 
 # I know this is dumb right😭, and 2nd thought what came into my mind is lets traverse 1 to n-2 and check separately first and last element to avoid that index error 
 # but this approach doesnt gurantee that constarint will be followed, so inevitably we'll have to do with two pass.
+
+
+nums = [1,0,2]  # 2,1,2 total 5 candies
+m = len(nums)
+tofe = [1]*m
+
+for i in range(m-1):
+    if nums[i] > nums[i+1]:
+        tofe[i]=tofe[i+1]+1
+
+for j in range(m-1,-1,-1):
+    if nums[j] > nums[j-1]:
+        tofe[j] = max(tofe[j], tofe[j-1]+1)
+
+print(tofe)        
+
+# This was the problem revisit 1, it did it in first try but only thing I did wrong that used i variable in j loop
+# this was also the case in first attempt of the problem.
