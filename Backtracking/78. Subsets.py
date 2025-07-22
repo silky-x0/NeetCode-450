@@ -29,3 +29,19 @@ print(subsets(nums))
 # by recursively exploring both choices for every element in the input array.
 # and we'll be going until index == length of nums and we'll append that result in our result set.
 # if its confusing try making recusrion tree for this problem to visualise!
+
+
+# loop-style recursion:-
+
+def subsetsLoop(nums):
+    result = []
+    def backtrack(start, path):
+        result.append(path[:])
+
+        for i in range(start, len(nums)):
+            backtrack(i+1, path + [nums[i]])
+
+    backtrack(0, [])
+    return result
+
+print(subsetsLoop([1,2,3]))    
