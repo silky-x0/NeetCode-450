@@ -7,12 +7,11 @@
 
 nums = [-2,1,-3,4,-1,2,1,-5,4]
 
-maxLocal = 0
-maxGlobal = float('-inf')                          
+maxLocal = maxGlobal = nums[0]                          
 
-for num in nums:
+for num in nums[1:]:
     maxGlobal = max(maxGlobal, maxLocal + num)
-    maxLocal = max(0, maxLocal + num)
+    maxLocal = max(num, maxLocal + num)
 
 print(maxGlobal)
 
@@ -24,8 +23,8 @@ print(maxGlobal)
 # start new subarray from that point and setting maxLocal to zero outside 2nd loop we'll update our maxGlobal
 # if its less then maxLocal, it has TC of n^2 which is oke because there exist a brute force approach which has n^3 TC
 # so our optimal solution is using kadane's algorithm, and by the way this question comes under both Greedy and Dynamic Programming
-# Our idea is simple and trivial once you look at the code, we taking one value at a time updating global maximum and local maximum
-# we're resetting local maximum to zero if curernt num + localMax is -ve, like in naive approach we're telling oke 
+# Our idea is simple and trivial once you look at the code, we're taking one value at a time updating global maximum and local maximum
+# we're resetting local maximum to current num if curernt num + localMax is -ve, like in naive approach we're telling oke 
 # new subarray should start from here.
 
 # And follow Up question can be that instead of sum you have to print subarray that has max sum, here's the code
