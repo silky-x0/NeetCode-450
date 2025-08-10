@@ -44,3 +44,20 @@ for jgh, tezi in gaadi:
         s.pop()
 
 print(len(s))
+
+
+# revision 1
+'''
+        tTr = []
+        for i in range(len(speed)):
+            val = (target - position[i]) / speed[i]
+            tTr.append(val)
+        cars = sorted(zip(position, tTr), reverse = True)    
+        stack = []    
+        for pos, time in cars:
+            if not stack or time > stack[-1]:
+                stack.append(time)    
+        return len(stack)
+'''
+
+# came up with thi solution, it took time (have to do this again!)
