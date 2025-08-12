@@ -49,3 +49,8 @@ print(i)
 # so our problems becomes find the smallest k where she finishes in k ≤ h hours becomes a monotonic
 # condition check → Binary Search is the efficient choice.
 # Now we can simple use Binary search with our canFinish Helper function to solve this problem
+
+# Helper function:-
+# it simply sums the numbers of hours needed to finish all piles and return boolean if it can finish before guard comes
+# and we are doing (p + k - 1) // k or ceil(pile/k) because assume we're asking If I eat k bananas per hour, how many whole
+# hours will it take me to finish this pile, counting even tiny leftovers as a full extra hour?
