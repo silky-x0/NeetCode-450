@@ -19,4 +19,14 @@ class Solution:
                 count +=(length*(length+1))//2
             else:
                 i+=1
-        return count                 
+        return count
+
+
+# Notes and Explanation
+# Since we need to count the number of sub arrays we can do this problem using simple ye subtle method
+# initialise i = 0 and j = len(nums) we'll start moving from i, towards j if we encounter nums[i] = 0
+# we'll start the count of zeros in subarrays because we'll be using mathematical formula to count sum of numbers 
+# upto n, why? its because we need to find all subarrays including single element [0] say we have [0,0] this
+# number of zeros is 2, using formula sum or count = (2*(2+1)) // 2 which gives 3 means total subarray is
+# [0], [0], [0,0] we'll be doing same for when we encounter nums[i] = 0 and i < j until nums[i] is 0 (i++ each step)
+# if not we'll just increase i to move forward and return count.
