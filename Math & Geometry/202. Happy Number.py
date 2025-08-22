@@ -35,6 +35,20 @@ def happyNum(n):
 print(happyNum(19))
 
 # Notes and Explanation (will add later)
+# Core idea is to use sum of squares of digits
+# we will keep replacing n with sum of squares of digits until n becomes 1 or 7
+# if n becomes 1 or 7 we will return True
+# we are using 7 because it is the only other happy number that leads to cycle end
+# eg- 7 -> 49 -> 97 -> 130 -> 10 -> 1 or 1 -> 1
+# All other numbers lead to cycle or unhappy number
+# eg- 2 -> 4 -> 16 -> 37 -> 58 -> 89 -> 145 -> 42 -> 20 -> 4 (cycle)
+# 3 -> 9 -> 81 -> 65 -> 61 -> 37 (cycle)
+# 4 -> 16 -> 37 (cycle) 
+# 5 -> 25 -> 29 -> 85 -> 89 (cycle)
+# 6 -> 36 -> 45 -> 41 -> 20 (cycle)
+# 8 -> 64 -> 52 -> 29 (cycle)
+# 9 -> 81 -> 65 (cycle)
+
 
 
 
