@@ -6,15 +6,15 @@
 
 ### Difficulty Breakdown
 - 🟩 Easy: 35 / 109
-- 🟨 Medium: 56 / 290
+- 🟨 Medium: 58 / 290
 - 🟥 Hard: 2 + 1(extra) / 52
 
 
 ## 🎯 Progress By Category
-- [ ] Arrays & Hashing (26/58)
+- [ ] Arrays & Hashing (28/58)
 - [ ] Two Pointers (9/18)
 - [ ] Sliding Window (5/15)
-- [ ] Stack (11/19)
+- [ ] Stack (12/19)
 - [ ] Binary Search (8/24)
 - [ ] Linked List (2/29)
 - [ ] Trees (0/42)
@@ -25,10 +25,10 @@
 - [ ] Advanced Graphs (0/11)
 - [ ] 1-D Dynamic Programming (4/36)
 - [ ] 2-D Dynamic Programming (1/26)
-- [ ] Greedy (9/18)
-- [ ] Intervals (4/8)
-- [ ] Math & Geometry (3/22)
-- [ ] Bit Manipulation (1/11)
+- [ ] Greedy (11/18)
+- [ ] Intervals (5/8)
+- [ ] Math & Geometry (4/22)
+- [ ] Bit Manipulation (2/11)
 - [ ] JavaScript (0/30)
 
 ## 💡 About
