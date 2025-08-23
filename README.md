@@ -7,11 +7,11 @@
 ### Difficulty Breakdown
 - 🟩 Easy: 35 / 109
 - 🟨 Medium: 58 / 290
-- 🟥 Hard: 2 + 1(extra) / 52
+- 🟥 Hard: 3 + 1(extra) / 52
 
 
 ## 🎯 Progress By Category
-- [ ] Arrays & Hashing (28/58)
+- [ ] Arrays & Hashing (29/58)
 - [ ] Two Pointers (9/18)
 - [ ] Sliding Window (5/15)
 - [ ] Stack (12/19)
