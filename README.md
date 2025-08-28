@@ -7,7 +7,7 @@
 ### Difficulty Breakdown
 
 - 🟩 Easy: 35 / 109
-- 🟨 Medium: 58 / 290
+- 🟨 Medium: 59 / 290
 - 🟥 Hard: 4 + 1(extra) / 52
 
 ## 🎯 Progress By Category
@@ -25,7 +25,7 @@
 - [ ] Graphs (1/39)
 - [ ] Advanced Graphs (0/11)
 - [ ] 1-D Dynamic Programming (4/36)
-- [ ] 2-D Dynamic Programming (1/26)
+- [ ] 2-D Dynamic Programming (2/26)
 - [ ] Greedy (11/18)
 - [ ] Intervals (5/8)
 - [ ] Math & Geometry (4/22)
