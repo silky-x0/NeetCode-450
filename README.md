@@ -1,4 +1,4 @@
-﻿# 🚀 NeetCode 450 - LeetCode Problems
+# 🚀 NeetCode 450 - LeetCode Problems
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-NeetCode450-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/)
 [![Problems](https://img.shields.io/badge/Problems-450-brightgreen?style=for-the-badge)](/)
@@ -8,7 +8,7 @@
 
 - 🟩 Easy: 35 / 109
 - 🟨 Medium: 60 / 290
-- 🟥 Hard: 4 + 1(extra) / 52
+- 🟥 Hard: 4 / 52
 
 ## 🎯 Progress By Category
 
