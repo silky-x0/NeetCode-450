@@ -1,18 +1,19 @@
-﻿# 🚀 NeetCode 450 - LeetCode Problems
+# 🚀 NeetCode 450 - LeetCode Problems
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-NeetCode450-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/)
 [![Problems](https://img.shields.io/badge/Problems-450-brightgreen?style=for-the-badge)](/)
 [![Categories](https://img.shields.io/badge/Categories-19-blue?style=for-the-badge)](/)
 
 ### Difficulty Breakdown
-- 🟩 Easy: 35 / 109
-- 🟨 Medium: 58 / 290
-- 🟥 Hard: 3 + 1(extra) / 52
 
+- 🟩 Easy: 35 / 109
+- 🟨 Medium: 60 / 290
+- 🟥 Hard: 4 / 52
 
 ## 🎯 Progress By Category
+
 - [ ] Arrays & Hashing (29/58)
-- [ ] Two Pointers (9/18)
+- [ ] Two Pointers (10/18)
 - [ ] Sliding Window (5/15)
 - [ ] Stack (12/19)
 - [ ] Binary Search (8/24)
@@ -24,7 +25,7 @@
 - [ ] Graphs (1/39)
 - [ ] Advanced Graphs (0/11)
 - [ ] 1-D Dynamic Programming (4/36)
-- [ ] 2-D Dynamic Programming (1/26)
+- [ ] 2-D Dynamic Programming (3/26)
 - [ ] Greedy (11/18)
 - [ ] Intervals (5/8)
 - [ ] Math & Geometry (4/22)
@@ -32,9 +33,11 @@
 - [ ] JavaScript (0/30)
 
 ## 💡 About
+
 This repository contains solutions to the NeetCode 450+ problem set, a carefully curated list of LeetCode problems designed to help you master coding interviews. Problems are organized by topic and difficulty level.
 
 ## 🚦 Getting Started
+
 1. Clone this repository
 2. Pick a topic from the Table of Contents
 3. Solve problems in order of difficulty (Easy → Medium → Hard)
@@ -43,10 +46,12 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 ## 📚 Table of Contents
 
 ### 1. Arrays & Hashing
+
 <details>
 <summary>View Problems (58)</summary>
 
 #### Easy
+
 - 🟩 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 - 🟩 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - 🟩 [Two Sum](https://leetcode.com/problems/two-sum/)
@@ -75,6 +80,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Design Parking System](https://leetcode.com/problems/design-parking-system/)
 
 #### Medium
+
 - 🟨 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - 🟨 [Sort an Array](https://leetcode.com/problems/sort-an-array/)
 - 🟨 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -108,16 +114,19 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Minimum Penalty for a Shop](https://leetcode.com/problems/minimum-penalty-for-a-shop/)
 
 #### Hard
+
 - 🟥 [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - 🟥 [Text Justification](https://leetcode.com/problems/text-justification/)
 - 🟥 [Naming a Company](https://leetcode.com/problems/naming-a-company/)
 </details>
 
 ### 2. Two Pointers
+
 <details>
 <summary>View Problems (18)</summary>
 
 #### Easy
+
 - 🟩 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - 🟩 [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)
 - 🟩 [Minimum Difference Between Highest And Lowest of K Scores](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
@@ -128,6 +137,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Remove Duplicates From Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 #### Medium
+
 - 🟨 [Remove Duplicates From Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
 - 🟨 [Two Sum II Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 - 🟨 [3Sum](https://leetcode.com/problems/3sum/)
@@ -139,18 +149,22 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)
 
 #### Hard
+
 - 🟥 [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
 </details>
 
 ### 3. Sliding Window
+
 <details>
 <summary>View Problems (15)</summary>
 
 #### Easy
+
 - 🟩 [Best Time to Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - 🟩 [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)
 
 #### Medium
+
 - 🟨 [Number of Sub Arrays of Size K and Avg Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-avg-greater-than-or-equal-to-threshold/)
 - 🟨 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - 🟨 [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
@@ -164,20 +178,24 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/)
 
 #### Hard
+
 - 🟥 [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - 🟥 [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 </details>
 
 ### 4. Stack
+
 <details>
 <summary>View Problems (19)</summary>
 
 #### Easy
+
 - 🟩 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - 🟩 [Baseball Game](https://leetcode.com/problems/baseball-game/)
 - 🟩 [Implement Stack Using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
 
 #### Medium
+
 - 🟨 [Min Stack](https://leetcode.com/problems/min-stack/)
 - 🟨 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - 🟨 [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)
@@ -194,15 +212,18 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [132 Pattern](https://leetcode.com/problems/132-pattern/)
 
 #### Hard
+
 - 🟥 [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)
 - 🟥 [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 </details>
 
 ### 5. Binary Search
+
 <details>
 <summary>View Problems (24)</summary>
 
 #### Easy
+
 - 🟩 [Binary Search](https://leetcode.com/problems/binary-search/)
 - 🟩 [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 - 🟩 [Guess Number Higher Or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/)
@@ -212,6 +233,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Sqrt(x)](https://leetcode.com/problems/sqrtx/)
 
 #### Medium
+
 - 🟨 [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 - 🟨 [Capacity to Ship Packages](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - 🟨 [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
@@ -229,15 +251,18 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/)
 
 #### Hard
+
 - 🟥 [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
 - 🟥 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 </details>
 
 ### 6. Linked List
+
 <details>
 <summary>View Problems (29)</summary>
 
 #### Easy
+
 - 🟩 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - 🟩 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - 🟩 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
@@ -248,6 +273,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 
 #### Medium
+
 - 🟨 [Reorder List](https://leetcode.com/problems/reorder-list/)
 - 🟨 [Maximum Twin Sum Of A Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)
 - 🟨 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
@@ -268,16 +294,19 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [LRU Cache](https://leetcode.com/problems/lru-cache/)
 
 #### Hard
+
 - 🟥 [LFU Cache](https://leetcode.com/problems/lfu-cache/)
 - 🟥 [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - 🟥 [Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 </details>
 
 ### 7. Trees
+
 <details>
 <summary>View Problems (42)</summary>
 
 #### Easy
+
 - 🟩 [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - 🟩 [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 - 🟩 [Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
@@ -295,6 +324,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 
 #### Medium
+
 - 🟨 [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - 🟨 [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
 - 🟨 [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/)
@@ -325,32 +355,39 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Convert Bst to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)
 
 #### Hard
+
 - 🟥 [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - 🟥 [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 </details>
 
 ### 8. Tries
+
 <details>
 <summary>View Problems (4)</summary>
 
 #### Medium
+
 - 🟨 [Implement Trie Prefix Tree](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - 🟨 [Design Add And Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - 🟨 [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)
 
 #### Hard
+
 - 🟥 [Word Search II](https://leetcode.com/problems/word-search-ii/)
 </details>
 
 ### 9. Heap / Priority Queue
+
 <details>
 <summary>View Problems (17)</summary>
 
 #### Easy
+
 - 🟩 [Kth Largest Element In a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)
 - 🟩 [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
 #### Medium
+
 - 🟨 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 - 🟨 [Kth Largest Element In An Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 - 🟨 [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
@@ -365,6 +402,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)
 
 #### Hard
+
 - 🟥 [Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/)
 - 🟥 [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - 🟥 [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)
@@ -372,10 +410,12 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 </details>
 
 ### 10. Backtracking
+
 <details>
 <summary>View Problems (18)</summary>
 
 #### Medium
+
 - 🟨 [Subsets](https://leetcode.com/problems/subsets/)
 - 🟨 [Combination Sum](https://leetcode.com/problems/combination-sum/)
 - 🟨 [Combinations](https://leetcode.com/problems/combinations/)
@@ -394,19 +434,23 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 
 #### Hard
+
 - 🟥 [N Queens](https://leetcode.com/problems/n-queens/)
 - 🟥 [N Queens II](https://leetcode.com/problems/n-queens-ii/)
 </details>
 
 ### 11. Graphs
+
 <details>
 <summary>View Problems (39)</summary>
 
 #### Easy
+
 - 🟩 [Island Perimeter](https://leetcode.com/problems/island-perimeter/)
 - 🟩 [Verifying An Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)
 
 #### Medium
+
 - 🟨 [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - 🟨 [Clone Graph](https://leetcode.com/problems/clone-graph/)
 - 🟨 [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
@@ -442,16 +486,19 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)
 
 #### Hard
+
 - 🟥 [Largest Color Value in a Directed Graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/)
 - 🟥 [Minimum Number of Days to Eat N Oranges](https://leetcode.com/problems/minimum-number-of-days-to-eat-n-oranges/)
 - 🟥 [Word Ladder](https://leetcode.com/problems/word-ladder/)
 </details>
 
 ### 12. Advanced Graphs
+
 <details>
 <summary>View Problems (11)</summary>
 
 #### Medium
+
 - 🟨 [Path with Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)
 - 🟨 [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
 - 🟨 [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
@@ -459,6 +506,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 #### Hard
+
 - 🟥 [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 - 🟥 [Swim In Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 - 🟥 [Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)
@@ -468,15 +516,18 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 </details>
 
 ### 13. 1-D Dynamic Programming
+
 <details>
 <summary>View Problems (36)</summary>
 
 #### Easy
+
 - 🟩 [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - 🟩 [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
 - 🟩 [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)
 
 #### Medium
+
 - 🟨 [House Robber](https://leetcode.com/problems/house-robber/)
 - 🟨 [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - 🟨 [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
@@ -504,6 +555,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Best Team with no Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/)
 
 #### Hard
+
 - 🟥 [Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/)
 - 🟥 [Stone Game III](https://leetcode.com/problems/stone-game-iii/)
 - 🟥 [Concatenated Words](https://leetcode.com/problems/concatenated-words/)
@@ -513,10 +565,12 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 </details>
 
 ### 14. 2-D Dynamic Programming
+
 <details>
 <summary>View Problems (26)</summary>
 
 #### Medium
+
 - 🟨 [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - 🟨 [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - 🟨 [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
@@ -536,6 +590,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Flip String to Monotone Increasing](https://leetcode.com/problems/flip-string-to-monotone-increasing/)
 
 #### Hard
+
 - 🟥 [Longest Increasing Path In a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
 - 🟥 [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
 - 🟥 [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/)
@@ -550,10 +605,12 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 </details>
 
 ### 15. Greedy
+
 <details>
 <summary>View Problems (18)</summary>
 
 #### Medium
+
 - 🟨 [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - 🟨 [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)
 - 🟨 [Longest Turbulent Array](https://leetcode.com/problems/longest-turbulent-array/)
@@ -574,17 +631,21 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
 #### Hard
+
 - 🟥 [Candy](https://leetcode.com/problems/candy/)
 </details>
 
 ### 16. Intervals
+
 <details>
 <summary>View Problems (8)</summary>
 
 #### Easy
+
 - 🟩 [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/)
 
 #### Medium
+
 - 🟨 [Insert Interval](https://leetcode.com/problems/insert-interval/)
 - 🟨 [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - 🟨 [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
@@ -592,15 +653,18 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Remove Covered Intervals](https://leetcode.com/problems/remove-covered-intervals/)
 
 #### Hard
+
 - 🟥 [Minimum Interval to Include Each Query](https://leetcode.com/problems/minimum-interval-to-include-each-query/)
 - 🟥 [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/)
 </details>
 
 ### 17. Math & Geometry
+
 <details>
 <summary>View Problems (22)</summary>
 
 #### Easy
+
 - 🟩 [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/)
 - 🟩 [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)
 - 🟩 [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
@@ -613,6 +677,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
 
 #### Medium
+
 - 🟨 [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - 🟨 [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - 🟨 [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)
@@ -626,14 +691,17 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟨 [Find Missing Observations](https://leetcode.com/problems/find-missing-observations/)
 
 #### Hard
+
 - 🟥 [Maximum Points on a Line](https://leetcode.com/problems/maximum-points-on-a-line/)
 </details>
 
 ### 18. Bit Manipulation
+
 <details>
 <summary>View Problems (11)</summary>
 
 #### Easy
+
 - 🟩 [Single Number](https://leetcode.com/problems/single-number/)
 - 🟩 [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 - 🟩 [Counting Bits](https://leetcode.com/problems/counting-bits/)
@@ -644,15 +712,18 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Add Binary](https://leetcode.com/problems/add-binary/)
 
 #### Medium
+
 - 🟨 [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
 - 🟨 [Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 </details>
 
 ### 19. JavaScript
+
 <details>
 <summary>View Problems (30)</summary>
 
 #### Easy
+
 - 🟩 [Create Hello World Function](https://leetcode.com/problems/create-hello-world-function/)
 - 🟩 [Counter](https://leetcode.com/problems/counter/)
 - 🟩 [Counter II](https://leetcode.com/problems/counter-ii/)
@@ -669,6 +740,7 @@ This repository contains solutions to the NeetCode 450+ problem set, a carefully
 - 🟩 [Promise Time Limit](https://leetcode.com/problems/promise-time-limit/)
 
 #### Medium
+
 - 🟨 [Memoize](https://leetcode.com/problems/memoize/)
 - 🟨 [Curry](https://leetcode.com/problems/curry/)
 - 🟨 [Promise Pool](https://leetcode.com/problems/promise-pool/)
