@@ -1,4 +1,4 @@
-# 🚀 NeetCode 450 - LeetCode Problems
+﻿# 🚀 NeetCode 450 - LeetCode Problems
 
 [![LeetCode](https://img.shields.io/badge/LeetCode-NeetCode450-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/)
 [![Problems](https://img.shields.io/badge/Problems-450-brightgreen?style=for-the-badge)](/)
@@ -6,18 +6,18 @@
 
 ### Difficulty Breakdown
 
-- 🟩 Easy: 35 / 109
-- 🟨 Medium: 60 / 290
-- 🟥 Hard: 4 / 52
+- 🟩 Easy: 23 / 109
+- 🟨 Medium: 12 / 290
+- 🟥 Hard: 0 / 52
 
 ## 🎯 Progress By Category
 
-- [ ] Arrays & Hashing (29/58)
-- [ ] Two Pointers (10/18)
-- [ ] Sliding Window (5/15)
-- [ ] Stack (12/19)
-- [ ] Binary Search (8/24)
-- [ ] Linked List (2/29)
+- [ ] Arrays & Hashing (14/58)
+- [ ] Two Pointers (5/18)
+- [ ] Sliding Window (2/15)
+- [ ] Stack (3/19)
+- [ ] Binary Search (2/24)
+- [ ] Linked List (1/29)
 - [ ] Trees (0/42)
 - [ ] Tries (2/4)
 - [ ] Heap / Priority Queue (0/17)
