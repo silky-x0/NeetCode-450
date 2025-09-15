@@ -7,7 +7,7 @@
 ### Difficulty Breakdown
 
 - 🟩 Easy: 63 / 109
-- 🟨 Medium: 49 / 290
+- 🟨 Medium: 50 / 290
 - 🟥 Hard: 0 / 52
 
 ## 🎯 Progress By Category
