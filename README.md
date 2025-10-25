@@ -6,15 +6,15 @@
 
 ### Difficulty Breakdown
 
-- 🟩 Easy: 63 / 109
-- 🟨 Medium: 50 / 290
-- 🟥 Hard: 0 / 52
+- 🟩 Easy: 34 / 109
+- 🟨 Medium: 52 / 290
+- 🟥 Hard: 3 / 52
 
 ## 🎯 Progress By Category
 
-- [ ] Arrays & Hashing (30/58)
-- [ ] Two Pointers (11/18)
-- [ ] Sliding Window (7/15)
+- [ ] Arrays & Hashing (27/58)
+- [ ] Two Pointers (12/18)
+- [ ] Sliding Window (8/15)
 - [ ] Stack (13/19)
 - [ ] Binary Search (8/24)
 - [ ] Linked List (2/29)
