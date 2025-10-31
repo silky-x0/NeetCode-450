@@ -45,8 +45,8 @@ print(removeDuplicates(s))
 # if stack[-1] count reaches k pop that
 
 # Revision 1:
-# stack = []
-        
+
+stack = []     
 for c in s:
     if stack and stack[-1][0] == c:
         stack[-1][1] += 1
