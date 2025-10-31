@@ -43,3 +43,15 @@ print(removeDuplicates(s))
 # Key points:-
 # count freq of character and push into stack with it
 # if stack[-1] count reaches k pop that
+
+# Revision 1:
+# stack = []
+        
+for c in s:
+    if stack and stack[-1][0] == c:
+        stack[-1][1] += 1
+        if stack[-1][1] == k:
+                stack.pop()
+    else:
+        tack.append([c, 1])
+print(''.join(ch * count for ch, count in stack)) 
