@@ -6,19 +6,19 @@
 
 ### Difficulty Breakdown
 
-- 🟩 Easy: 34 / 109
-- 🟨 Medium: 55 / 290
+- 🟩 Easy: 35 / 109
+- 🟨 Medium: 56 / 290
 - 🟥 Hard: 3 / 52
 
 ## 🎯 Progress By Category
 
 - [ ] Arrays & Hashing (27/58)
 - [ ] Two Pointers (12/18)
-- [ ] Sliding Window (8/15)
+- [ ] Sliding Window (9/15)
 - [ ] Stack (13/19)
 - [ ] Binary Search (8/24)
 - [ ] Linked List (5/29)
-- [ ] Trees (0/42)
+- [ ] Trees (1/42)
 - [ ] Tries (2/4)
 - [ ] Heap / Priority Queue (0/17)
 - [ ] Backtracking (9/18)
