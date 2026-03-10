@@ -7,7 +7,7 @@
 ### Difficulty Breakdown
 
 - 🟩 Easy: 35 / 109
-- 🟨 Medium: 56 / 290
+- 🟨 Medium: 57 / 290
 - 🟥 Hard: 3 / 52
 
 ## 🎯 Progress By Category
@@ -18,7 +18,7 @@
 - [ ] Stack (13/19)
 - [ ] Binary Search (8/24)
 - [ ] Linked List (5/29)
-- [ ] Trees (1/42)
+- [ ] Trees (2/42)
 - [ ] Tries (2/4)
 - [ ] Heap / Priority Queue (0/17)
 - [ ] Backtracking (9/18)
