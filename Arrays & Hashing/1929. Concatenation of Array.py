@@ -30,3 +30,12 @@ def getConcatenation(self, nums: List[int]) -> List[int]:
 # Method 3: Using multiplication
 def getConcatenation(self, nums: List[int]) -> List[int]:
     return nums * 2  # O(n) space
+
+
+# Method 4: using modulo operator
+def getConcatenation(self, nums: List[int]) -> List[int]:
+    n = len(nums)
+    ans = [0] * (2 * n)
+    for i in range(2 * n):
+        ans[i] = nums[i % n]
+    return ans      # O(n) space
