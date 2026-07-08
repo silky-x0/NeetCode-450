@@ -8,6 +8,9 @@
 # Output: 6
 # Explanation: The first 6 sub-arrays of size 3 have averages greater than 5. Note that averages are not integers.
 
+from _typeshed import _type_checker_internals
+from _typeshed import _type_checker_internals
+from _typeshed import _type_checker_internals
 class Solution:
     def numOfSubarrays(self, arr: list[int], k: int, threshold: int) -> int:
         size = len(arr)
@@ -54,4 +57,19 @@ def numOfSubArr(nums, threshold, k):
 
     return subArrCount
 
-print(numOfSubArr([2,2,2,2,5,5,5,8], 4, 3))            
+print(numOfSubArr([2,2,2,2,5,5,5,8], 4, 3))
+
+
+## Revised Solution
+
+def numOfSubarrays(arr: list[int], k: int, t: int) -> int:
+    tSum = k * t
+    l = currS = res = 0
+    for r in range(len(arr)):
+        currS +=  arr[r]
+        if r-l+1 == k:
+            if currS >= tSum:
+                res += 1
+            currS -= arr[l]
+            l += 1
+    return res            
