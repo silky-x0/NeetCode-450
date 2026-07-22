@@ -41,3 +41,43 @@ print("".join(nums).lstrip("0") or "0")
 # we compare "" or "0"
 # since "" empty string is falsy value and "0" becomes truthy (actually it is)
 # so it'll print or return "0"
+
+# Alternative solution-------------------------------------------
+
+from functools import cmp_to_key
+
+def compare(a, b):
+    if a+b > b+a:
+        return -1
+    if b+a > a+b:
+        return 1
+    return 0    
+
+def largest(nums):
+
+    arr = list(map(str, nums))
+
+    arr.sort(key = cmp_to_key(compare))
+
+    if arr[0] == "0":
+        return "0"
+
+    return "".join(arr)
+
+# Idea:-
+# In this solution we'll have compare each permutation of individual string concatenated and comparing two at a time
+# to decide which will go first eg we're given a = "0" b = "3" now we'll check which is greater a+b or b+a i.e
+# "03" or "30" and we'll compare all element with each other like we do in sorting but here we added our own instruction
+# Also to get proper unederstanding of this cmp_to_key method, think like it converts compare fxn / comparator into something 
+# key argument understands, unlike JS in JS we directly write a arrow fxn inside sort method to compare values like this;-
+
+# arr.sort((a,b) =>{
+#     const ab = a + b; 
+#     const ba = b + a;
+#     if (ab > ba) return -1;
+#     if (ba > ab) return 1;
+#     return 0;
+# })
+
+# Also if interviewer asks implement this without cmp_to_key then you may use merge sort + helper fxn (comparator)
+# and yes you're done.
